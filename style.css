@@ -1,0 +1,70 @@
+@font-face{
+    font-family:'nabla';
+    src: url(/Fonts/roman_sd/Roman\ SD.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(66, 66, 66);
+    font-family:"nabla";
+}
+h1{
+    text-align:center;
+    color: orangered
+    ;
+}
+#Hefesto{
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+h2{
+    text-align:center;
+    color: orangered;
+}
+main{
+    top: 100px;
+    margin: 100px;
+    font-size: larger;   
+}
+header{
+    background-color:black;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position:fixed;
+    justify-content: space-around;
+    z-index: 1;
+    color:orangered
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration:orangered;
+    color: orangered;
+}
+h1 header{
+    top: 100% ;
+}
+#Meuperfil{
+    text-align: center;
+}
+.indicação{
+    text-align:center;
+}
+ #Descrição{
+    text-align: justify;
+ }
+ .ft{
+     border-radius: 20px;
+ }
+#container{
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+#personagens{
+    text-align: justify;
+}
